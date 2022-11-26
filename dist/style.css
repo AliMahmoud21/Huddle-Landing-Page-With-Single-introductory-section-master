@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: hsl(257deg, 40%, 49%);
+  background-image: url("/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+}
+.container .header {
+  margin-bottom: 4rem;
+}
+.container .hero {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.container .hero .text {
+  margin-top: -6rem;
+  margin-left: 3rem;
+}
+.container .hero .text h1 {
+  color: #fff;
+  font-size: 3.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.container .hero .text p {
+  color: #fff;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+.container .hero .text .btn {
+  margin-top: 1rem;
+  color: hsl(257deg, 40%, 49%);
+  font-size: 1.125rem;
+  font-weight: 400;
+  background-color: #fff;
+  border-radius: 1.875rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0.3125rem 0.625rem 625rem rgba(0, 0, 0, 0.3);
+  margin-top: 1.5rem;
+  padding: 1.125rem 5rem;
+  transition: all 0.4s ease;
+}
+.container .hero .text .btn:hover {
+  color: #fff;
+  background-color: hsl(300deg, 69%, 71%);
+}
+.container .social-icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .social-icons a {
+  margin-left: 1.5rem;
+}
+.container .social-icons a i {
+  transition: all 0.4s ease;
+  color: #fff;
+}
+.container .social-icons a i:hover {
+  color: hsl(300deg, 69%, 71%);
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .header {
+    padding: 1rem 0;
+  }
+  .container .content {
+    margin-top: -1rem;
+  }
+  .container .content .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .content .hero .text {
+    margin-top: 1rem;
+  }
+  .container .content .hero .text h1 {
+    font-size: 1.5rem;
+  }
+  .container .content .hero .text p {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+  }
+  .container .content .hero .text .btn {
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  .container .social-icons {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  .container .social-icons i a {
+    margin-left: 2.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
