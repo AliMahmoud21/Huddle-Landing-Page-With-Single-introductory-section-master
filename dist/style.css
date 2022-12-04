@@ -41,7 +41,7 @@ img {
 }
 .container .hero .text h1 {
   color: #fff;
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -74,14 +74,13 @@ img {
   display: flex;
   justify-content: flex-end;
 }
-.container .social-icons a {
+.container .social-icons i {
   margin-left: 1.5rem;
-}
-.container .social-icons a i {
   transition: all 0.4s ease;
+  cursor: pointer;
   color: #fff;
 }
-.container .social-icons a i:hover {
+.container .social-icons i:hover {
   color: hsl(300deg, 69%, 71%);
 }
 

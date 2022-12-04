@@ -45,7 +45,7 @@ img {
             h1 {
                 color: #fff;
                 font: {
-                    size: 3.25rem;
+                    size: 3rem;
                     weight: 600;
                 }
                 line-height: 1.5;
@@ -84,16 +84,15 @@ img {
         font-size: 2rem;
         display: flex;
         justify-content: flex-end;
-        a {
-            margin-left: 1.5rem;
             i {
+                margin-left: 1.5rem;
                 transition: all .4s ease;
+                cursor: pointer;
                 color: #fff;
                 &:hover {
                     color: hsl(300, 69%, 71%);
                 }
             }
-        }
     }
 }
 
